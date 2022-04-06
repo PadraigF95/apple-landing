@@ -1,0 +1,59 @@
+
+.app__headline-title{
+    font-size: 56px;
+    line-height: 1.07143;
+    font-weight: 700;
+    letter-spacing: -.005em;
+    font-family: var(--font-base);
+    color: var(--color--gray);
+}
+
+.app__headline-subtitle{
+    font-size: 28px;
+    line-height: 1.10722;
+    font-weight: 400;
+    letter-spacing: 0.004em;
+    font-family: var(--font-base);
+    margin-top: 6px;
+    display: flex;
+    justify-content: center;
+}
+
+.app__headline-info{
+    font-size: 21px;
+    display: flex;
+    justify-content: center;
+    font-family: var(--font-base);
+    font-weight: 400;
+    padding: 0.5rem;
+    letter-spacing: -0.005em;
+    
+}
+
+.app__headline-span{
+    text-decoration: none;
+    padding: 0 1rem;
+    color: var(--color-blue);
+}
+
+.app__headline-span::after{
+    content: '>';
+    width: 29px;
+    height: 15.81;
+    padding: 0px 0px 0px 6.3px;
+    
+}
+
+
+.app__headline-span:hover{
+text-decoration: underline;
+}
+
+.app__headline-span_arrow{
+  
+    margin-left: -6px;
+    padding-top: 6px;
+    height: 20px;
+
+}
+

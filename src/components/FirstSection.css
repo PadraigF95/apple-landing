@@ -1,0 +1,11 @@
+.app__first-section{
+    height: 55.2rem;
+    background: url('../images/iphone_13.jpg');
+    margin-top: 4.4rem;
+    background-size: auto 55rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: .6rem solid #fff;
+    border-bottom: .6rem solid #fff;
+   
+}

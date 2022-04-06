@@ -1,38 +1,30 @@
-.App {
-  text-align: center;
+.p__robonto{
+    font-family: var(--font-base);
+    color: var(--color-grey);
+    font-weight: 400;
+    padding: 0 8px;
+    opacity: .8;
+    height: 44px;
+    letter-spacing: -0.1em;
+    line-height: 3.66667;
+    font-size: 12px;
+    text-decoration: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.p__robonto-smallscreen{
+    font-family: var(--font-base);
+    color: var(--color-grey);
+    font-weight: 400;
+    letter-spacing: -.022em;
+    line-height: 1.23536;
+    font-size: 17px;
+    
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.flex__center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8rem 0;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+  
